@@ -1,0 +1,11 @@
+{
+	"author": "Monika",
+	"name": "replace",
+	"version": "0.1.1",
+	"description": "Replaces words from string",
+	"main": "replacestring",
+	"dependencies": {},
+	"engines": {
+		"node": "*"
+	}
+}
