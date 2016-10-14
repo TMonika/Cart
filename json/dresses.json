@@ -1,0 +1,8 @@
+{
+	"dresses": [
+					{"id":1, "url": "./images/d1.jpg", "quantity": 1},
+					{"id":2, "url": "./images/d2.jpg", "quantity": 1},
+					{"id":3, "url": "./images/d3.jpg", "quantity": 1},
+					{"id":4, "url": "./images/d4.jpg", "quantity": 1}
+				]
+}

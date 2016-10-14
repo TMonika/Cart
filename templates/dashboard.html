@@ -1,0 +1,12 @@
+<div class="row">
+	<div ng-repeat="dress in dresses" class="col-md-4 dress thumbnail">
+		<a ng-href="#/dresses/{{dress.id}}" class="dressImg"><img ng-src="{{dress.url}}" class="dressUrl"></a>
+	<!--table class="table table-condensed">
+		<tr ng-repeat="dress in dresses">
+			<td>
+				<a ng-href="#/dresses/{{dress.id}}"><div class="col-sm-4 dress"><img ng-src="{{dress.url}}" id="{{dress.id}}" class="img-responsive dressImg"></div></a>
+			</td>
+		</tr>
+	</table-->
+	</div>
+</div>
