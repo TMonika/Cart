@@ -1,0 +1,18 @@
+a,a:hover {
+    text-decoration: none;
+}
+.image {
+    width: 40%;
+    height: auto;
+}
+.size {
+    list-style: none;
+    width:60%;
+}
+.size>.col-lg-3 {
+    cursor: pointer;
+    margin-right: 2px;
+}
+.itemDetails {
+    margin-top: 20px;
+}

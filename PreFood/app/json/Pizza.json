@@ -1,0 +1,7 @@
+{
+  "items": [
+    {"id":1,"name":"Spicy Triple Tango", "regular":300, "medium": 400, "large": 500, "category": "Pizza", "url": "./images/Spicy Triple Tango.jpg"},
+    {"id":2,"name":"Veg Feast", "regular":350, "medium": 450, "large": 550, "category": "Pizza", "url": "./images/Veg Feast.jpg"},
+    {"id":3,"name":"Veg Margharita", "regular":250, "medium": 350, "large": 450, "category": "Pizza", "url": "./images/Veg Margharita.jpg"}
+  ]
+}
