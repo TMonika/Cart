@@ -1,11 +1,12 @@
 (function () {
 	angular.module("firstApp", ["ngRoute"])
 		.config(function($routeProvider) {
-			$routeProvider.when('/dashboard', {
-				templateUrl: 'templates/dashboard.html',
-				controller: 'ItemController'
-			}).when('/register', {
-				templateUrl: 'templates/register.html'
+			$routeProvider.when('/results', {
+				templateUrl: 'templates/results.html',
+				controller: 'ListController'
+			}).when('/', {
+				templateUrl: 'templates/search.html',
+				controller: 'SearchController'
 			}).otherwise({
 				redirectTo: '/'
 			});

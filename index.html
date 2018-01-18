@@ -9,26 +9,14 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-	<div class="container text-center" ng-app="firstApp" ng-controller="LoginController">
+	<div class="container text-center" ng-app="firstApp" ng-controller="SearchController">
 		<div>
-			<h1 class="col-md-10" style="margin-left: 40px;">Welcome to Angular JS Practicals Cart</h1>
-			<button class="btn btn-default" ng-hide="!logged" id="logout">Logout</button>
-			<a href="#/cart"><img ng-src="./images/cart.png" ng-show="cart" class="cart"></a>
-		</div>
-		<div>
-			<my-form></my-form>
 			<div ng-view></div>
 		</div>
 	</div>
 	<script src="Main.js" type="text/javascript"></script>
-	<script src="controllers/LoginController.js" type="text/javascript"></script>
-	<script src="controllers/ItemController.js" type="text/javascript"></script>
-	<script src="controllers/CartController.js" type="text/javascript"></script>
-	<script type="text/javascript">
-		$('#logout').click(function (event) {
-			event.preventDefault();
-			window.location.href = 'http://localhost/angular';
-		});
-	</script>
+	<script src="controllers/SearchController.js" type="text/javascript"></script>
+	<script src="controllers/ListController.js" type="text/javascript"></script>
+	<script src="controllers/DetailsController.js" type="text/javascript"></script>
 </body>
 </html>
